@@ -1,0 +1,3821 @@
+{
+  "landlords": [
+    {
+      "id": "L-001",
+      "name": "ООО «Арендодатель»",
+      "inn": "7701000000",
+      "legalAddress": "г. Москва, ул. Центральная, д. 1",
+      "bankDetails": "р/с 4070281000000001, ПАО «Городской банк»"
+    }
+  ],
+  "tenants": [
+    {
+      "id": "T-001",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Вектор»",
+      "legalAddress": "г. Москва, ул. Лесная, д. 7",
+      "ogrn": "1027700132195",
+      "inn": "7701234567",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000001",
+      "phone": "79001112233",
+      "email": "office@vector.ru",
+      "directorLastName": "Павлов",
+      "directorFirstName": "Игорь",
+      "directorMiddleName": "Андреевич"
+    },
+    {
+      "id": "T-002",
+      "tenantType": "физическое лицо",
+      "lastName": "Иванов",
+      "firstName": "Сергей",
+      "middleName": "Петрович",
+      "passportSeries": "4510",
+      "passportNumber": "123456",
+      "birthDate": "12.04.1991",
+      "passportIssueDate": "18.05.2012",
+      "inn": "5001234567",
+      "email": "ivanov@mail.ru",
+      "phone": "79002223344"
+    },
+    {
+      "id": "T-003",
+      "tenantType": "юридическое лицо",
+      "companyName": "ИП Смирнова Анна",
+      "legalAddress": "г. Москва, пр-т Мира, д. 18",
+      "ogrn": "3045001234567",
+      "inn": "5009876543",
+      "bankName": "АО «Расчетный банк»",
+      "checkingAccount": "4080281000000002",
+      "phone": "79003334455",
+      "email": "smirnova@business.ru",
+      "directorLastName": "Смирнова",
+      "directorFirstName": "Анна",
+      "directorMiddleName": "Игоревна"
+    },
+    {
+      "id": "T-004",
+      "tenantType": "физическое лицо",
+      "lastName": "Петрова",
+      "firstName": "Мария",
+      "middleName": "Алексеевна",
+      "passportSeries": "4511",
+      "passportNumber": "234567",
+      "birthDate": "09.09.1988",
+      "passportIssueDate": "11.10.2014",
+      "inn": "5002345678",
+      "email": "petrova@mail.ru",
+      "phone": "79004445566"
+    },
+    {
+      "id": "T-005",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Север»",
+      "legalAddress": "г. Москва, ул. Полярная, д. 9",
+      "ogrn": "1027800123456",
+      "inn": "7801234567",
+      "bankName": "ПАО «Северный банк»",
+      "checkingAccount": "4070281000000003",
+      "phone": "79005556677",
+      "email": "office@sever.ru",
+      "directorLastName": "Орлов",
+      "directorFirstName": "Денис",
+      "directorMiddleName": "Викторович"
+    },
+    {
+      "id": "T-006",
+      "tenantType": "физическое лицо",
+      "lastName": "Кузнецов",
+      "firstName": "Артем",
+      "middleName": "Ильич",
+      "passportSeries": "4512",
+      "passportNumber": "345678",
+      "birthDate": "21.01.1995",
+      "passportIssueDate": "22.02.2016",
+      "inn": "5003456789",
+      "email": "kuznetsov@mail.ru",
+      "phone": "79006667788"
+    },
+    {
+      "id": "T-007",
+      "tenantType": "юридическое лицо",
+      "companyName": "АО «Гранит»",
+      "legalAddress": "г. Москва, ул. Каменная, д. 4",
+      "ogrn": "1027700456789",
+      "inn": "7704567890",
+      "bankName": "АО «Столичный банк»",
+      "checkingAccount": "4070281000000004",
+      "phone": "79007778899",
+      "email": "info@granit.ru",
+      "directorLastName": "Белова",
+      "directorFirstName": "Елена",
+      "directorMiddleName": "Олеговна"
+    },
+    {
+      "id": "T-008",
+      "tenantType": "физическое лицо",
+      "lastName": "Соколов",
+      "firstName": "Никита",
+      "middleName": "Романович",
+      "passportSeries": "4513",
+      "passportNumber": "456789",
+      "birthDate": "03.06.1990",
+      "passportIssueDate": "04.07.2015",
+      "inn": "5004567890",
+      "email": "sokolov@mail.ru",
+      "phone": "79008889900"
+    },
+    {
+      "id": "T-009",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Альфа-9»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 9",
+      "ogrn": "1027700000009",
+      "inn": "7700000009",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000009",
+      "phone": "79000000009",
+      "email": "office9@example.ru",
+      "directorLastName": "Лебедева",
+      "directorFirstName": "Дмитрий",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-010",
+      "tenantType": "физическое лицо",
+      "lastName": "Макаров",
+      "firstName": "Дарья",
+      "middleName": "Андреевна",
+      "passportSeries": "4510",
+      "passportNumber": "100010",
+      "birthDate": "11.11.1990",
+      "passportIssueDate": "11.11.2010",
+      "inn": "5000000010",
+      "email": "user10@mail.ru",
+      "phone": "79110000010"
+    },
+    {
+      "id": "T-011",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Гамма-11»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 11",
+      "ogrn": "1027700000011",
+      "inn": "7700000011",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000011",
+      "phone": "79000000011",
+      "email": "office11@example.ru",
+      "directorLastName": "Николаева",
+      "directorFirstName": "Владислав",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-012",
+      "tenantType": "физическое лицо",
+      "lastName": "Орлов",
+      "firstName": "Наталья",
+      "middleName": "Андреевна",
+      "passportSeries": "4512",
+      "passportNumber": "100012",
+      "birthDate": "13.01.1992",
+      "passportIssueDate": "13.01.2012",
+      "inn": "5000000012",
+      "email": "user12@mail.ru",
+      "phone": "79110000012"
+    },
+    {
+      "id": "T-013",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Сигма-13»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 13",
+      "ogrn": "1027700000013",
+      "inn": "7700000013",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000013",
+      "phone": "79000000013",
+      "email": "office13@example.ru",
+      "directorLastName": "Попова",
+      "directorFirstName": "Илья",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-014",
+      "tenantType": "физическое лицо",
+      "lastName": "Романов",
+      "firstName": "Ирина",
+      "middleName": "Андреевна",
+      "passportSeries": "4514",
+      "passportNumber": "100014",
+      "birthDate": "15.03.1994",
+      "passportIssueDate": "15.03.2014",
+      "inn": "5000000014",
+      "email": "user14@mail.ru",
+      "phone": "79110000014"
+    },
+    {
+      "id": "T-015",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Парус-15»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 15",
+      "ogrn": "1027700000015",
+      "inn": "7700000015",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000015",
+      "phone": "79000000015",
+      "email": "office15@example.ru",
+      "directorLastName": "Сидорова",
+      "directorFirstName": "Константин",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-016",
+      "tenantType": "физическое лицо",
+      "lastName": "Титов",
+      "firstName": "Софья",
+      "middleName": "Андреевна",
+      "passportSeries": "4516",
+      "passportNumber": "100016",
+      "birthDate": "17.05.1996",
+      "passportIssueDate": "17.05.2016",
+      "inn": "5000000016",
+      "email": "user16@mail.ru",
+      "phone": "79110000016"
+    },
+    {
+      "id": "T-017",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Меркурий-17»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 17",
+      "ogrn": "1027700000017",
+      "inn": "7700000017",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000017",
+      "phone": "79000000017",
+      "email": "office17@example.ru",
+      "directorLastName": "Федорова",
+      "directorFirstName": "Евгений",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-018",
+      "tenantType": "физическое лицо",
+      "lastName": "Алексеев",
+      "firstName": "Алина",
+      "middleName": "Андреевна",
+      "passportSeries": "4518",
+      "passportNumber": "100018",
+      "birthDate": "19.07.1998",
+      "passportIssueDate": "19.07.2018",
+      "inn": "5000000018",
+      "email": "user18@mail.ru",
+      "phone": "79110000018"
+    },
+    {
+      "id": "T-019",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Ресурс-19»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 19",
+      "ogrn": "1027700000019",
+      "inn": "7700000019",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000019",
+      "phone": "79000000019",
+      "email": "office19@example.ru",
+      "directorLastName": "Борисова",
+      "directorFirstName": "Павел",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-020",
+      "tenantType": "физическое лицо",
+      "lastName": "Васильев",
+      "firstName": "Ольга",
+      "middleName": "Андреевна",
+      "passportSeries": "4520",
+      "passportNumber": "100020",
+      "birthDate": "21.09.1980",
+      "passportIssueDate": "21.09.2010",
+      "inn": "5000000020",
+      "email": "user20@mail.ru",
+      "phone": "79110000020"
+    },
+    {
+      "id": "T-021",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Альфа-21»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 21",
+      "ogrn": "1027700000021",
+      "inn": "7700000021",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000021",
+      "phone": "79000000021",
+      "email": "office21@example.ru",
+      "directorLastName": "Громова",
+      "directorFirstName": "Михаил",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-022",
+      "tenantType": "физическое лицо",
+      "lastName": "Данилов",
+      "firstName": "Вера",
+      "middleName": "Андреевна",
+      "passportSeries": "4522",
+      "passportNumber": "100022",
+      "birthDate": "23.11.1982",
+      "passportIssueDate": "23.11.2012",
+      "inn": "5000000022",
+      "email": "user22@mail.ru",
+      "phone": "79110000022"
+    },
+    {
+      "id": "T-023",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Гамма-23»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 23",
+      "ogrn": "1027700000023",
+      "inn": "7700000023",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000023",
+      "phone": "79000000023",
+      "email": "office23@example.ru",
+      "directorLastName": "Егорова",
+      "directorFirstName": "Андрей",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-024",
+      "tenantType": "физическое лицо",
+      "lastName": "Жуков",
+      "firstName": "Ксения",
+      "middleName": "Андреевна",
+      "passportSeries": "4524",
+      "passportNumber": "100024",
+      "birthDate": "25.01.1984",
+      "passportIssueDate": "25.01.2014",
+      "inn": "5000000024",
+      "email": "user24@mail.ru",
+      "phone": "79110000024"
+    },
+    {
+      "id": "T-025",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Сигма-25»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 25",
+      "ogrn": "1027700000025",
+      "inn": "7700000025",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000025",
+      "phone": "79000000025",
+      "email": "office25@example.ru",
+      "directorLastName": "Зайцева",
+      "directorFirstName": "Роман",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-026",
+      "tenantType": "физическое лицо",
+      "lastName": "Кириллов",
+      "firstName": "Юлия",
+      "middleName": "Андреевна",
+      "passportSeries": "4526",
+      "passportNumber": "100026",
+      "birthDate": "27.03.1986",
+      "passportIssueDate": "27.03.2016",
+      "inn": "5000000026",
+      "email": "user26@mail.ru",
+      "phone": "79110000026"
+    },
+    {
+      "id": "T-027",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Парус-27»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 27",
+      "ogrn": "1027700000027",
+      "inn": "7700000027",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000027",
+      "phone": "79000000027",
+      "email": "office27@example.ru",
+      "directorLastName": "Лебедева",
+      "directorFirstName": "Дмитрий",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-028",
+      "tenantType": "физическое лицо",
+      "lastName": "Макаров",
+      "firstName": "Дарья",
+      "middleName": "Андреевна",
+      "passportSeries": "4528",
+      "passportNumber": "100028",
+      "birthDate": "02.05.1988",
+      "passportIssueDate": "02.05.2018",
+      "inn": "5000000028",
+      "email": "user28@mail.ru",
+      "phone": "79110000028"
+    },
+    {
+      "id": "T-029",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Меркурий-29»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 29",
+      "ogrn": "1027700000029",
+      "inn": "7700000029",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000029",
+      "phone": "79000000029",
+      "email": "office29@example.ru",
+      "directorLastName": "Николаева",
+      "directorFirstName": "Владислав",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-030",
+      "tenantType": "физическое лицо",
+      "lastName": "Орлов",
+      "firstName": "Наталья",
+      "middleName": "Андреевна",
+      "passportSeries": "4530",
+      "passportNumber": "100030",
+      "birthDate": "04.07.1990",
+      "passportIssueDate": "04.07.2010",
+      "inn": "5000000030",
+      "email": "user30@mail.ru",
+      "phone": "79110000030"
+    },
+    {
+      "id": "T-031",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Ресурс-31»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 31",
+      "ogrn": "1027700000031",
+      "inn": "7700000031",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000031",
+      "phone": "79000000031",
+      "email": "office31@example.ru",
+      "directorLastName": "Попова",
+      "directorFirstName": "Илья",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-032",
+      "tenantType": "физическое лицо",
+      "lastName": "Романов",
+      "firstName": "Ирина",
+      "middleName": "Андреевна",
+      "passportSeries": "4532",
+      "passportNumber": "100032",
+      "birthDate": "06.09.1992",
+      "passportIssueDate": "06.09.2012",
+      "inn": "5000000032",
+      "email": "user32@mail.ru",
+      "phone": "79110000032"
+    },
+    {
+      "id": "T-033",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Альфа-33»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 33",
+      "ogrn": "1027700000033",
+      "inn": "7700000033",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000033",
+      "phone": "79000000033",
+      "email": "office33@example.ru",
+      "directorLastName": "Сидорова",
+      "directorFirstName": "Константин",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-034",
+      "tenantType": "физическое лицо",
+      "lastName": "Титов",
+      "firstName": "Софья",
+      "middleName": "Андреевна",
+      "passportSeries": "4534",
+      "passportNumber": "100034",
+      "birthDate": "08.11.1994",
+      "passportIssueDate": "08.11.2014",
+      "inn": "5000000034",
+      "email": "user34@mail.ru",
+      "phone": "79110000034"
+    },
+    {
+      "id": "T-035",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Гамма-35»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 35",
+      "ogrn": "1027700000035",
+      "inn": "7700000035",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000035",
+      "phone": "79000000035",
+      "email": "office35@example.ru",
+      "directorLastName": "Федорова",
+      "directorFirstName": "Евгений",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-036",
+      "tenantType": "физическое лицо",
+      "lastName": "Алексеев",
+      "firstName": "Алина",
+      "middleName": "Андреевна",
+      "passportSeries": "4536",
+      "passportNumber": "100036",
+      "birthDate": "10.01.1996",
+      "passportIssueDate": "10.01.2016",
+      "inn": "5000000036",
+      "email": "user36@mail.ru",
+      "phone": "79110000036"
+    },
+    {
+      "id": "T-037",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Сигма-37»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 37",
+      "ogrn": "1027700000037",
+      "inn": "7700000037",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000037",
+      "phone": "79000000037",
+      "email": "office37@example.ru",
+      "directorLastName": "Борисова",
+      "directorFirstName": "Павел",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-038",
+      "tenantType": "физическое лицо",
+      "lastName": "Васильев",
+      "firstName": "Ольга",
+      "middleName": "Андреевна",
+      "passportSeries": "4538",
+      "passportNumber": "100038",
+      "birthDate": "12.03.1998",
+      "passportIssueDate": "12.03.2018",
+      "inn": "5000000038",
+      "email": "user38@mail.ru",
+      "phone": "79110000038"
+    },
+    {
+      "id": "T-039",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Парус-39»",
+      "legalAddress": "г. Москва, ул. Деловая, д. 39",
+      "ogrn": "1027700000039",
+      "inn": "7700000039",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000039",
+      "phone": "79000000039",
+      "email": "office39@example.ru",
+      "directorLastName": "Громова",
+      "directorFirstName": "Михаил",
+      "directorMiddleName": "Сергеевич"
+    },
+    {
+      "id": "T-040",
+      "tenantType": "физическое лицо",
+      "lastName": "Данилов",
+      "firstName": "Вера",
+      "middleName": "Андреевна",
+      "passportSeries": "4540",
+      "passportNumber": "100040",
+      "birthDate": "14.05.1980",
+      "passportIssueDate": "14.05.2010",
+      "inn": "5000000040",
+      "email": "user40@mail.ru",
+      "phone": "79110000040"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "area": "28",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 101",
+      "status": "Свободно"
+    },
+    {
+      "id": "102",
+      "area": "16",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 102",
+      "status": "Свободно"
+    },
+    {
+      "id": "112",
+      "area": "41",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 112",
+      "status": "Занято"
+    },
+    {
+      "id": "205",
+      "area": "52",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 205",
+      "status": "Занято"
+    },
+    {
+      "id": "206",
+      "area": "64",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 206",
+      "status": "Свободно"
+    },
+    {
+      "id": "217",
+      "area": "23",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 217",
+      "status": "Занято"
+    },
+    {
+      "id": "301",
+      "area": "78",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 301",
+      "status": "Свободно"
+    },
+    {
+      "id": "317",
+      "area": "18",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 317",
+      "status": "в ремонте"
+    },
+    {
+      "id": "318",
+      "area": "33",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 318",
+      "status": "Занято"
+    },
+    {
+      "id": "410",
+      "area": "35",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 410",
+      "status": "Свободно"
+    },
+    {
+      "id": "411",
+      "area": "46",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 411",
+      "status": "Занято"
+    },
+    {
+      "id": "509",
+      "area": "90",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 509",
+      "status": "Свободно"
+    },
+    {
+      "id": "103",
+      "area": "50",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 103",
+      "status": "Свободно"
+    },
+    {
+      "id": "104",
+      "area": "57",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 104",
+      "status": "Занято"
+    },
+    {
+      "id": "105",
+      "area": "64",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 105",
+      "status": "Занято"
+    },
+    {
+      "id": "106",
+      "area": "71",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 106",
+      "status": "Занято"
+    },
+    {
+      "id": "107",
+      "area": "78",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 107",
+      "status": "Свободно"
+    },
+    {
+      "id": "108",
+      "area": "85",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 108",
+      "status": "в ремонте"
+    },
+    {
+      "id": "109",
+      "area": "92",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 109",
+      "status": "Занято"
+    },
+    {
+      "id": "110",
+      "area": "99",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 110",
+      "status": "Занято"
+    },
+    {
+      "id": "201",
+      "area": "47",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 201",
+      "status": "Занято"
+    },
+    {
+      "id": "202",
+      "area": "54",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 202",
+      "status": "Свободно"
+    },
+    {
+      "id": "203",
+      "area": "61",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 203",
+      "status": "Занято"
+    },
+    {
+      "id": "204",
+      "area": "68",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 204",
+      "status": "Занято"
+    },
+    {
+      "id": "207",
+      "area": "89",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 207",
+      "status": "в ремонте"
+    },
+    {
+      "id": "208",
+      "area": "96",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 208",
+      "status": "Занято"
+    },
+    {
+      "id": "209",
+      "area": "18",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 209",
+      "status": "Занято"
+    },
+    {
+      "id": "210",
+      "area": "25",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 210",
+      "status": "Свободно"
+    },
+    {
+      "id": "302",
+      "area": "65",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 302",
+      "status": "Занято"
+    },
+    {
+      "id": "303",
+      "area": "72",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 303",
+      "status": "Занято"
+    },
+    {
+      "id": "304",
+      "area": "79",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 304",
+      "status": "Занято"
+    },
+    {
+      "id": "305",
+      "area": "86",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 305",
+      "status": "Свободно"
+    },
+    {
+      "id": "306",
+      "area": "93",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 306",
+      "status": "в ремонте"
+    },
+    {
+      "id": "307",
+      "area": "100",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 307",
+      "status": "Занято"
+    },
+    {
+      "id": "308",
+      "area": "22",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 308",
+      "status": "Занято"
+    },
+    {
+      "id": "309",
+      "area": "29",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 309",
+      "status": "Свободно"
+    },
+    {
+      "id": "310",
+      "area": "36",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 310",
+      "status": "Занято"
+    },
+    {
+      "id": "401",
+      "area": "69",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 401",
+      "status": "Занято"
+    },
+    {
+      "id": "402",
+      "area": "76",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 402",
+      "status": "Занято"
+    },
+    {
+      "id": "403",
+      "area": "83",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 403",
+      "status": "Занято"
+    },
+    {
+      "id": "404",
+      "area": "90",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 404",
+      "status": "Свободно"
+    },
+    {
+      "id": "405",
+      "area": "97",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 405",
+      "status": "в ремонте"
+    },
+    {
+      "id": "406",
+      "area": "19",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 406",
+      "status": "Занято"
+    },
+    {
+      "id": "407",
+      "area": "26",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 407",
+      "status": "Занято"
+    },
+    {
+      "id": "408",
+      "area": "33",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 408",
+      "status": "Свободно"
+    },
+    {
+      "id": "409",
+      "area": "40",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 409",
+      "status": "Занято"
+    },
+    {
+      "id": "501",
+      "area": "80",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 501",
+      "status": "Занято"
+    },
+    {
+      "id": "502",
+      "area": "87",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 502",
+      "status": "Занято"
+    },
+    {
+      "id": "503",
+      "area": "94",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 503",
+      "status": "Свободно"
+    },
+    {
+      "id": "504",
+      "area": "101",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 504",
+      "status": "в ремонте"
+    },
+    {
+      "id": "505",
+      "area": "23",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 505",
+      "status": "Занято"
+    },
+    {
+      "id": "506",
+      "area": "30",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 506",
+      "status": "Занято"
+    },
+    {
+      "id": "507",
+      "area": "37",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 507",
+      "status": "Свободно"
+    },
+    {
+      "id": "508",
+      "area": "44",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 508",
+      "status": "Занято"
+    },
+    {
+      "id": "510",
+      "area": "58",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 510",
+      "status": "Занято"
+    },
+    {
+      "id": "601",
+      "area": "91",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 601",
+      "status": "Занято"
+    },
+    {
+      "id": "602",
+      "area": "98",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 602",
+      "status": "Свободно"
+    },
+    {
+      "id": "603",
+      "area": "20",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 603",
+      "status": "в ремонте"
+    },
+    {
+      "id": "604",
+      "area": "27",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 604",
+      "status": "Занято"
+    },
+    {
+      "id": "605",
+      "area": "34",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 605",
+      "status": "Занято"
+    },
+    {
+      "id": "606",
+      "area": "41",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 606",
+      "status": "Свободно"
+    },
+    {
+      "id": "607",
+      "area": "48",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 607",
+      "status": "Занято"
+    },
+    {
+      "id": "608",
+      "area": "55",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 608",
+      "status": "Занято"
+    },
+    {
+      "id": "609",
+      "area": "62",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 609",
+      "status": "Занято"
+    },
+    {
+      "id": "610",
+      "area": "69",
+      "floor": "6",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 610",
+      "status": "Свободно"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "C-001",
+      "contractNumber": "ДА-24/015",
+      "roomId": "205",
+      "landlordId": "L-001",
+      "tenantId": "T-001",
+      "startDate": "01.02.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "92000",
+      "payment": "92000",
+      "lastPaymentDate": "07.05.2026"
+    },
+    {
+      "id": "C-002",
+      "contractNumber": "ДА-24/021",
+      "roomId": "317",
+      "landlordId": "L-001",
+      "tenantId": "T-002",
+      "startDate": "15.03.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "21000",
+      "payment": "0",
+      "lastPaymentDate": "10.04.2026"
+    },
+    {
+      "id": "C-003",
+      "contractNumber": "ДА-24/030",
+      "roomId": "410",
+      "landlordId": "L-001",
+      "tenantId": "T-003",
+      "startDate": "01.06.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "57000",
+      "payment": "57000",
+      "lastPaymentDate": "01.06.2026"
+    },
+    {
+      "id": "C-004",
+      "contractNumber": "ДА-24/031",
+      "roomId": "112",
+      "landlordId": "L-001",
+      "tenantId": "T-005",
+      "startDate": "01.01.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "66000",
+      "payment": "66000",
+      "lastPaymentDate": "05.05.2026"
+    },
+    {
+      "id": "C-005",
+      "contractNumber": "ДА-24/032",
+      "roomId": "217",
+      "landlordId": "L-001",
+      "tenantId": "T-004",
+      "startDate": "01.04.2026",
+      "endDate": "30.11.2026",
+      "rentCost": "36000",
+      "payment": "18000",
+      "lastPaymentDate": "15.05.2026"
+    },
+    {
+      "id": "C-006",
+      "contractNumber": "ДА-24/033",
+      "roomId": "318",
+      "landlordId": "L-001",
+      "tenantId": "T-006",
+      "startDate": "10.04.2026",
+      "endDate": "10.12.2026",
+      "rentCost": "48000",
+      "payment": "48000",
+      "lastPaymentDate": "10.05.2026"
+    },
+    {
+      "id": "C-007",
+      "contractNumber": "ДА-24/034",
+      "roomId": "411",
+      "landlordId": "L-001",
+      "tenantId": "T-007",
+      "startDate": "20.02.2026",
+      "endDate": "20.12.2026",
+      "rentCost": "71000",
+      "payment": "30000",
+      "lastPaymentDate": "20.04.2026"
+    },
+    {
+      "id": "C-008",
+      "contractNumber": "ДА-24/035",
+      "roomId": "102",
+      "landlordId": "L-001",
+      "tenantId": "T-008",
+      "startDate": "01.05.2026",
+      "endDate": "31.10.2026",
+      "rentCost": "25000",
+      "payment": "25000",
+      "lastPaymentDate": "01.05.2026"
+    },
+    {
+      "id": "C-009",
+      "contractNumber": "ДА-26/009",
+      "roomId": "109",
+      "landlordId": "L-001",
+      "tenantId": "T-028",
+      "startDate": "10.10.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "129600",
+      "payment": "129600",
+      "lastPaymentDate": "10.05.2026"
+    },
+    {
+      "id": "C-010",
+      "contractNumber": "ДА-26/010",
+      "roomId": "110",
+      "landlordId": "L-001",
+      "tenantId": "T-031",
+      "startDate": "11.11.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "128700",
+      "payment": "128700",
+      "lastPaymentDate": "11.05.2026"
+    },
+    {
+      "id": "C-011",
+      "contractNumber": "ДА-26/011",
+      "roomId": "201",
+      "landlordId": "L-001",
+      "tenantId": "T-034",
+      "startDate": "12.12.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "63600",
+      "payment": "63600",
+      "lastPaymentDate": "12.05.2026"
+    },
+    {
+      "id": "C-012",
+      "contractNumber": "ДА-26/012",
+      "roomId": "203",
+      "landlordId": "L-001",
+      "tenantId": "T-037",
+      "startDate": "13.01.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "84300",
+      "payment": "42150",
+      "lastPaymentDate": "13.05.2026"
+    },
+    {
+      "id": "C-013",
+      "contractNumber": "ДА-26/013",
+      "roomId": "204",
+      "landlordId": "L-001",
+      "tenantId": "T-040",
+      "startDate": "14.02.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "95900",
+      "payment": "95900",
+      "lastPaymentDate": "14.05.2026"
+    },
+    {
+      "id": "C-014",
+      "contractNumber": "ДА-26/014",
+      "roomId": "208",
+      "landlordId": "L-001",
+      "tenantId": "T-003",
+      "startDate": "15.03.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "134800",
+      "payment": "134800",
+      "lastPaymentDate": "15.05.2026"
+    },
+    {
+      "id": "C-015",
+      "contractNumber": "ДА-26/015",
+      "roomId": "209",
+      "landlordId": "L-001",
+      "tenantId": "T-006",
+      "startDate": "16.04.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "23400",
+      "payment": "23400",
+      "lastPaymentDate": "16.05.2026"
+    },
+    {
+      "id": "C-016",
+      "contractNumber": "ДА-26/016",
+      "roomId": "302",
+      "landlordId": "L-001",
+      "tenantId": "T-009",
+      "startDate": "17.05.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "87000",
+      "payment": "43500",
+      "lastPaymentDate": "17.05.2026"
+    },
+    {
+      "id": "C-017",
+      "contractNumber": "ДА-26/017",
+      "roomId": "303",
+      "landlordId": "L-001",
+      "tenantId": "T-012",
+      "startDate": "18.06.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "98600",
+      "payment": "98600",
+      "lastPaymentDate": "18.05.2026"
+    },
+    {
+      "id": "C-018",
+      "contractNumber": "ДА-26/018",
+      "roomId": "304",
+      "landlordId": "L-001",
+      "tenantId": "T-015",
+      "startDate": "19.07.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "110200",
+      "payment": "110200",
+      "lastPaymentDate": "19.05.2026"
+    },
+    {
+      "id": "C-019",
+      "contractNumber": "ДА-26/019",
+      "roomId": "307",
+      "landlordId": "L-001",
+      "tenantId": "T-018",
+      "startDate": "20.08.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "140000",
+      "payment": "140000",
+      "lastPaymentDate": "20.05.2026"
+    },
+    {
+      "id": "C-020",
+      "contractNumber": "ДА-26/020",
+      "roomId": "308",
+      "landlordId": "L-001",
+      "tenantId": "T-021",
+      "startDate": "01.09.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "28600",
+      "payment": "14300",
+      "lastPaymentDate": "01.05.2026"
+    },
+    {
+      "id": "C-021",
+      "contractNumber": "ДА-26/021",
+      "roomId": "310",
+      "landlordId": "L-001",
+      "tenantId": "T-024",
+      "startDate": "02.10.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "49300",
+      "payment": "49300",
+      "lastPaymentDate": "02.05.2026"
+    },
+    {
+      "id": "C-022",
+      "contractNumber": "ДА-26/022",
+      "roomId": "401",
+      "landlordId": "L-001",
+      "tenantId": "T-027",
+      "startDate": "03.11.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "94700",
+      "payment": "94700",
+      "lastPaymentDate": "03.05.2026"
+    },
+    {
+      "id": "C-023",
+      "contractNumber": "ДА-26/023",
+      "roomId": "402",
+      "landlordId": "L-001",
+      "tenantId": "T-030",
+      "startDate": "04.12.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "106300",
+      "payment": "106300",
+      "lastPaymentDate": "04.05.2026"
+    },
+    {
+      "id": "C-024",
+      "contractNumber": "ДА-26/024",
+      "roomId": "403",
+      "landlordId": "L-001",
+      "tenantId": "T-033",
+      "startDate": "05.01.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "117900",
+      "payment": "58950",
+      "lastPaymentDate": "05.05.2026"
+    },
+    {
+      "id": "C-025",
+      "contractNumber": "ДА-26/025",
+      "roomId": "406",
+      "landlordId": "L-001",
+      "tenantId": "T-036",
+      "startDate": "06.02.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "24700",
+      "payment": "24700",
+      "lastPaymentDate": "06.05.2026"
+    },
+    {
+      "id": "C-026",
+      "contractNumber": "ДА-26/026",
+      "roomId": "407",
+      "landlordId": "L-001",
+      "tenantId": "T-039",
+      "startDate": "07.03.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "36300",
+      "payment": "36300",
+      "lastPaymentDate": "07.05.2026"
+    },
+    {
+      "id": "C-027",
+      "contractNumber": "ДА-26/027",
+      "roomId": "409",
+      "landlordId": "L-001",
+      "tenantId": "T-002",
+      "startDate": "08.04.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "57000",
+      "payment": "57000",
+      "lastPaymentDate": "08.05.2026"
+    },
+    {
+      "id": "C-028",
+      "contractNumber": "ДА-26/028",
+      "roomId": "501",
+      "landlordId": "L-001",
+      "tenantId": "T-005",
+      "startDate": "09.05.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "111500",
+      "payment": "55750",
+      "lastPaymentDate": "09.05.2026"
+    },
+    {
+      "id": "C-029",
+      "contractNumber": "ДА-26/029",
+      "roomId": "502",
+      "landlordId": "L-001",
+      "tenantId": "T-008",
+      "startDate": "10.06.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "123100",
+      "payment": "123100",
+      "lastPaymentDate": "10.05.2026"
+    },
+    {
+      "id": "C-030",
+      "contractNumber": "ДА-26/030",
+      "roomId": "505",
+      "landlordId": "L-001",
+      "tenantId": "T-011",
+      "startDate": "11.07.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "29900",
+      "payment": "29900",
+      "lastPaymentDate": "11.05.2026"
+    },
+    {
+      "id": "C-031",
+      "contractNumber": "ДА-26/031",
+      "roomId": "506",
+      "landlordId": "L-001",
+      "tenantId": "T-014",
+      "startDate": "12.08.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "41500",
+      "payment": "41500",
+      "lastPaymentDate": "12.05.2026"
+    },
+    {
+      "id": "C-032",
+      "contractNumber": "ДА-26/032",
+      "roomId": "508",
+      "landlordId": "L-001",
+      "tenantId": "T-017",
+      "startDate": "13.09.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "62200",
+      "payment": "31100",
+      "lastPaymentDate": "13.05.2026"
+    },
+    {
+      "id": "C-033",
+      "contractNumber": "ДА-26/033",
+      "roomId": "510",
+      "landlordId": "L-001",
+      "tenantId": "T-020",
+      "startDate": "14.10.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "82900",
+      "payment": "82900",
+      "lastPaymentDate": "14.05.2026"
+    },
+    {
+      "id": "C-034",
+      "contractNumber": "ДА-26/034",
+      "roomId": "601",
+      "landlordId": "L-001",
+      "tenantId": "T-023",
+      "startDate": "15.11.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "128300",
+      "payment": "128300",
+      "lastPaymentDate": "15.05.2026"
+    },
+    {
+      "id": "C-035",
+      "contractNumber": "ДА-26/035",
+      "roomId": "604",
+      "landlordId": "L-001",
+      "tenantId": "T-026",
+      "startDate": "16.12.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "35100",
+      "payment": "35100",
+      "lastPaymentDate": "16.05.2026"
+    },
+    {
+      "id": "C-036",
+      "contractNumber": "ДА-26/036",
+      "roomId": "605",
+      "landlordId": "L-001",
+      "tenantId": "T-029",
+      "startDate": "17.01.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "46700",
+      "payment": "23350",
+      "lastPaymentDate": "17.05.2026"
+    },
+    {
+      "id": "C-037",
+      "contractNumber": "ДА-26/037",
+      "roomId": "607",
+      "landlordId": "L-001",
+      "tenantId": "T-032",
+      "startDate": "18.02.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "67400",
+      "payment": "67400",
+      "lastPaymentDate": "18.05.2026"
+    },
+    {
+      "id": "C-038",
+      "contractNumber": "ДА-26/038",
+      "roomId": "608",
+      "landlordId": "L-001",
+      "tenantId": "T-035",
+      "startDate": "19.03.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "79000",
+      "payment": "79000",
+      "lastPaymentDate": "19.05.2026"
+    },
+    {
+      "id": "C-039",
+      "contractNumber": "ДА-26/039",
+      "roomId": "609",
+      "landlordId": "L-001",
+      "tenantId": "T-038",
+      "startDate": "20.04.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "90600",
+      "payment": "90600",
+      "lastPaymentDate": "20.05.2026"
+    }
+  ],
+  "acts": [
+    {
+      "id": "A-001",
+      "contractId": "C-001",
+      "settlementDate": "01.02.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "3820"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "44"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "18"
+        }
+      ]
+    },
+    {
+      "id": "A-002",
+      "contractId": "C-002",
+      "settlementDate": "15.03.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "640"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "12"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "7"
+        }
+      ]
+    },
+    {
+      "id": "A-003",
+      "contractId": "C-004",
+      "settlementDate": "01.01.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2100"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "27"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "14"
+        }
+      ]
+    },
+    {
+      "id": "A-004",
+      "contractId": "C-005",
+      "settlementDate": "01.04.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "980"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "19"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "8"
+        }
+      ]
+    },
+    {
+      "id": "A-005",
+      "contractId": "C-006",
+      "settlementDate": "10.04.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1500"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "21"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "10"
+        }
+      ]
+    },
+    {
+      "id": "A-006",
+      "contractId": "C-007",
+      "settlementDate": "20.02.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2600"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "31"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "16"
+        }
+      ]
+    },
+    {
+      "id": "A-007",
+      "contractId": "C-007",
+      "settlementDate": "20.02.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1259"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1380"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1501"
+        }
+      ]
+    },
+    {
+      "id": "A-008",
+      "contractId": "C-008",
+      "settlementDate": "01.05.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1296"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1417"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1538"
+        }
+      ]
+    },
+    {
+      "id": "A-009",
+      "contractId": "C-009",
+      "settlementDate": "10.10.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1333"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1454"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1575"
+        }
+      ]
+    },
+    {
+      "id": "A-010",
+      "contractId": "C-010",
+      "settlementDate": "11.11.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1370"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1491"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1612"
+        }
+      ]
+    },
+    {
+      "id": "A-011",
+      "contractId": "C-011",
+      "settlementDate": "12.12.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1407"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1528"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1649"
+        }
+      ]
+    },
+    {
+      "id": "A-012",
+      "contractId": "C-012",
+      "settlementDate": "13.01.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1444"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1565"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1686"
+        }
+      ]
+    },
+    {
+      "id": "A-013",
+      "contractId": "C-013",
+      "settlementDate": "14.02.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1481"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1602"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1723"
+        }
+      ]
+    },
+    {
+      "id": "A-014",
+      "contractId": "C-014",
+      "settlementDate": "15.03.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1518"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1639"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1760"
+        }
+      ]
+    },
+    {
+      "id": "A-015",
+      "contractId": "C-015",
+      "settlementDate": "16.04.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1555"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1676"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1797"
+        }
+      ]
+    },
+    {
+      "id": "A-016",
+      "contractId": "C-016",
+      "settlementDate": "17.05.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1592"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1713"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1834"
+        }
+      ]
+    },
+    {
+      "id": "A-017",
+      "contractId": "C-017",
+      "settlementDate": "18.06.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1629"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1750"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1871"
+        }
+      ]
+    },
+    {
+      "id": "A-018",
+      "contractId": "C-018",
+      "settlementDate": "19.07.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1666"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1787"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1908"
+        }
+      ]
+    },
+    {
+      "id": "A-019",
+      "contractId": "C-019",
+      "settlementDate": "20.08.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1703"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1824"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1945"
+        }
+      ]
+    },
+    {
+      "id": "A-020",
+      "contractId": "C-020",
+      "settlementDate": "01.09.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1740"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1861"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "1982"
+        }
+      ]
+    },
+    {
+      "id": "A-021",
+      "contractId": "C-021",
+      "settlementDate": "02.10.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1777"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1898"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2019"
+        }
+      ]
+    },
+    {
+      "id": "A-022",
+      "contractId": "C-022",
+      "settlementDate": "03.11.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1814"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1935"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2056"
+        }
+      ]
+    },
+    {
+      "id": "A-023",
+      "contractId": "C-023",
+      "settlementDate": "04.12.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1851"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "1972"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2093"
+        }
+      ]
+    },
+    {
+      "id": "A-024",
+      "contractId": "C-024",
+      "settlementDate": "05.01.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1888"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2009"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2130"
+        }
+      ]
+    },
+    {
+      "id": "A-025",
+      "contractId": "C-025",
+      "settlementDate": "06.02.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1925"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2046"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2167"
+        }
+      ]
+    },
+    {
+      "id": "A-026",
+      "contractId": "C-026",
+      "settlementDate": "07.03.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1962"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2083"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2204"
+        }
+      ]
+    },
+    {
+      "id": "A-027",
+      "contractId": "C-027",
+      "settlementDate": "08.04.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1999"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2120"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2241"
+        }
+      ]
+    },
+    {
+      "id": "A-028",
+      "contractId": "C-028",
+      "settlementDate": "09.05.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2036"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2157"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2278"
+        }
+      ]
+    },
+    {
+      "id": "A-029",
+      "contractId": "C-029",
+      "settlementDate": "10.06.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2073"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2194"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2315"
+        }
+      ]
+    },
+    {
+      "id": "A-030",
+      "contractId": "C-030",
+      "settlementDate": "11.07.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2110"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2231"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2352"
+        }
+      ]
+    },
+    {
+      "id": "A-031",
+      "contractId": "C-031",
+      "settlementDate": "12.08.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2147"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2268"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2389"
+        }
+      ]
+    },
+    {
+      "id": "A-032",
+      "contractId": "C-032",
+      "settlementDate": "13.09.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2184"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2305"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2426"
+        }
+      ]
+    },
+    {
+      "id": "A-033",
+      "contractId": "C-033",
+      "settlementDate": "14.10.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2221"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2342"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2463"
+        }
+      ]
+    },
+    {
+      "id": "A-034",
+      "contractId": "C-034",
+      "settlementDate": "15.11.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2258"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2379"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2500"
+        }
+      ]
+    },
+    {
+      "id": "A-035",
+      "contractId": "C-035",
+      "settlementDate": "16.12.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2295"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2416"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2537"
+        }
+      ]
+    },
+    {
+      "id": "A-036",
+      "contractId": "C-036",
+      "settlementDate": "17.01.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2332"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "2453"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "2574"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "S-001",
+      "contractId": "C-001",
+      "cadastralNumber": "7701234567",
+      "registrationDate": "12.01.2024",
+      "registrationNumber": "100001"
+    },
+    {
+      "id": "S-002",
+      "contractId": "C-002",
+      "cadastralNumber": "7707654321",
+      "registrationDate": "18.02.2024",
+      "registrationNumber": "100002"
+    },
+    {
+      "id": "S-003",
+      "contractId": "C-004",
+      "cadastralNumber": "7702223344",
+      "registrationDate": "20.03.2024",
+      "registrationNumber": "100003"
+    },
+    {
+      "id": "S-004",
+      "contractId": "C-005",
+      "cadastralNumber": "7703334455",
+      "registrationDate": "25.03.2024",
+      "registrationNumber": "100004"
+    },
+    {
+      "id": "S-005",
+      "contractId": "C-006",
+      "cadastralNumber": "7704445566",
+      "registrationDate": "04.04.2024",
+      "registrationNumber": "100005"
+    },
+    {
+      "id": "S-008",
+      "contractId": "C-008",
+      "cadastralNumber": "7700000008",
+      "registrationDate": "09.01.2026",
+      "registrationNumber": "990008"
+    },
+    {
+      "id": "S-010",
+      "contractId": "C-010",
+      "cadastralNumber": "7700000010",
+      "registrationDate": "11.01.2026",
+      "registrationNumber": "990010"
+    },
+    {
+      "id": "S-012",
+      "contractId": "C-012",
+      "cadastralNumber": "7700000012",
+      "registrationDate": "13.01.2026",
+      "registrationNumber": "990012"
+    },
+    {
+      "id": "S-014",
+      "contractId": "C-014",
+      "cadastralNumber": "7700000014",
+      "registrationDate": "15.01.2026",
+      "registrationNumber": "990014"
+    },
+    {
+      "id": "S-016",
+      "contractId": "C-016",
+      "cadastralNumber": "7700000016",
+      "registrationDate": "17.01.2026",
+      "registrationNumber": "990016"
+    },
+    {
+      "id": "S-018",
+      "contractId": "C-018",
+      "cadastralNumber": "7700000018",
+      "registrationDate": "19.01.2026",
+      "registrationNumber": "990018"
+    },
+    {
+      "id": "S-020",
+      "contractId": "C-020",
+      "cadastralNumber": "7700000020",
+      "registrationDate": "01.01.2026",
+      "registrationNumber": "990020"
+    },
+    {
+      "id": "S-022",
+      "contractId": "C-022",
+      "cadastralNumber": "7700000022",
+      "registrationDate": "03.01.2026",
+      "registrationNumber": "990022"
+    },
+    {
+      "id": "S-024",
+      "contractId": "C-024",
+      "cadastralNumber": "7700000024",
+      "registrationDate": "05.01.2026",
+      "registrationNumber": "990024"
+    },
+    {
+      "id": "S-026",
+      "contractId": "C-026",
+      "cadastralNumber": "7700000026",
+      "registrationDate": "07.01.2026",
+      "registrationNumber": "990026"
+    },
+    {
+      "id": "S-028",
+      "contractId": "C-028",
+      "cadastralNumber": "7700000028",
+      "registrationDate": "09.01.2026",
+      "registrationNumber": "990028"
+    },
+    {
+      "id": "S-030",
+      "contractId": "C-030",
+      "cadastralNumber": "7700000030",
+      "registrationDate": "11.01.2026",
+      "registrationNumber": "990030"
+    },
+    {
+      "id": "S-032",
+      "contractId": "C-032",
+      "cadastralNumber": "7700000032",
+      "registrationDate": "13.01.2026",
+      "registrationNumber": "990032"
+    },
+    {
+      "id": "S-034",
+      "contractId": "C-034",
+      "cadastralNumber": "7700000034",
+      "registrationDate": "15.01.2026",
+      "registrationNumber": "990034"
+    },
+    {
+      "id": "S-036",
+      "contractId": "C-036",
+      "cadastralNumber": "7700000036",
+      "registrationDate": "17.01.2026",
+      "registrationNumber": "990036"
+    }
+  ],
+  "requests": [
+    {
+      "id": "З-105",
+      "contractId": "C-002",
+      "roomId": "317",
+      "tenantRoomContractId": "C-002",
+      "description": "Не работает освещение в помещении",
+      "requestDate": "26.05.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-099",
+      "contractId": "C-001",
+      "roomId": "205",
+      "tenantRoomContractId": "C-001",
+      "description": "Проверить показания счетчика холодной воды",
+      "requestDate": "24.05.2026",
+      "status": "в работе"
+    },
+    {
+      "id": "З-081",
+      "contractId": "C-001",
+      "roomId": "205",
+      "tenantRoomContractId": "C-001",
+      "description": "Замена дверного замка",
+      "requestDate": "18.05.2026",
+      "status": "выполнена"
+    },
+    {
+      "id": "З-106",
+      "contractId": "C-005",
+      "roomId": "217",
+      "tenantRoomContractId": "C-005",
+      "description": "Проверить розетки в помещении",
+      "requestDate": "27.05.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-107",
+      "contractId": "C-006",
+      "roomId": "318",
+      "tenantRoomContractId": "C-006",
+      "description": "Проверить счетчик электроэнергии",
+      "requestDate": "28.05.2026",
+      "status": "в работе"
+    },
+    {
+      "id": "З-108",
+      "contractId": "C-007",
+      "roomId": "411",
+      "tenantRoomContractId": "C-007",
+      "description": "Настроить вентиляцию",
+      "requestDate": "29.05.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-009",
+      "contractId": "C-009",
+      "tenantRoomContractId": "C-009",
+      "roomId": "109",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "10.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-012",
+      "contractId": "C-012",
+      "tenantRoomContractId": "C-012",
+      "roomId": "203",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "13.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-015",
+      "contractId": "C-015",
+      "tenantRoomContractId": "C-015",
+      "roomId": "209",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "16.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-018",
+      "contractId": "C-018",
+      "tenantRoomContractId": "C-018",
+      "roomId": "304",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "19.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-021",
+      "contractId": "C-021",
+      "tenantRoomContractId": "C-021",
+      "roomId": "310",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "02.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-024",
+      "contractId": "C-024",
+      "tenantRoomContractId": "C-024",
+      "roomId": "403",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "05.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-027",
+      "contractId": "C-027",
+      "tenantRoomContractId": "C-027",
+      "roomId": "409",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "08.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-030",
+      "contractId": "C-030",
+      "tenantRoomContractId": "C-030",
+      "roomId": "505",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "11.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-033",
+      "contractId": "C-033",
+      "tenantRoomContractId": "C-033",
+      "roomId": "510",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "14.06.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-036",
+      "contractId": "C-036",
+      "tenantRoomContractId": "C-036",
+      "roomId": "605",
+      "description": "Плановая проверка коммуникаций и устранение мелких неисправностей.",
+      "requestDate": "17.06.2026",
+      "status": "зарегистрирована"
+    }
+  ],
+  "notices": [
+    {
+      "id": "1",
+      "contractId": "C-002",
+      "tenantRoomContractId": "C-002",
+      "roomId": "317",
+      "debtAmount": "21000",
+      "formationDate": "27.05.2026",
+      "repaymentDeadline": "10.06.2026"
+    },
+    {
+      "id": "2",
+      "contractId": "C-005",
+      "tenantRoomContractId": "C-005",
+      "roomId": "217",
+      "debtAmount": "18000",
+      "formationDate": "28.05.2026",
+      "repaymentDeadline": "12.06.2026"
+    },
+    {
+      "id": "3",
+      "contractId": "C-007",
+      "tenantRoomContractId": "C-007",
+      "roomId": "411",
+      "debtAmount": "41000",
+      "formationDate": "29.05.2026",
+      "repaymentDeadline": "15.06.2026"
+    },
+    {
+      "id": "17",
+      "contractId": "C-007",
+      "tenantRoomContractId": "C-007",
+      "roomId": "411",
+      "debtAmount": "41000",
+      "formationDate": "08.06.2026",
+      "repaymentDeadline": "18.06.2026"
+    },
+    {
+      "id": "22",
+      "contractId": "C-012",
+      "tenantRoomContractId": "C-012",
+      "roomId": "203",
+      "debtAmount": "42150",
+      "formationDate": "13.06.2026",
+      "repaymentDeadline": "23.06.2026"
+    },
+    {
+      "id": "26",
+      "contractId": "C-016",
+      "tenantRoomContractId": "C-016",
+      "roomId": "302",
+      "debtAmount": "43500",
+      "formationDate": "17.06.2026",
+      "repaymentDeadline": "27.06.2026"
+    },
+    {
+      "id": "30",
+      "contractId": "C-020",
+      "tenantRoomContractId": "C-020",
+      "roomId": "308",
+      "debtAmount": "14300",
+      "formationDate": "01.06.2026",
+      "repaymentDeadline": "11.06.2026"
+    },
+    {
+      "id": "34",
+      "contractId": "C-024",
+      "tenantRoomContractId": "C-024",
+      "roomId": "403",
+      "debtAmount": "58950",
+      "formationDate": "05.06.2026",
+      "repaymentDeadline": "15.06.2026"
+    },
+    {
+      "id": "38",
+      "contractId": "C-028",
+      "tenantRoomContractId": "C-028",
+      "roomId": "501",
+      "debtAmount": "55750",
+      "formationDate": "09.06.2026",
+      "repaymentDeadline": "19.06.2026"
+    },
+    {
+      "id": "42",
+      "contractId": "C-032",
+      "tenantRoomContractId": "C-032",
+      "roomId": "508",
+      "debtAmount": "31100",
+      "formationDate": "13.06.2026",
+      "repaymentDeadline": "23.06.2026"
+    },
+    {
+      "id": "46",
+      "contractId": "C-036",
+      "tenantRoomContractId": "C-036",
+      "roomId": "605",
+      "debtAmount": "23350",
+      "formationDate": "17.06.2026",
+      "repaymentDeadline": "27.06.2026"
+    }
+  ],
+  "payments": [
+    {
+      "id": "P-001",
+      "contractId": "C-001",
+      "amount": "92000",
+      "paymentDate": "06.02.2026",
+      "periodStart": "01.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-002",
+      "contractId": "C-001",
+      "amount": "92000",
+      "paymentDate": "07.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-003",
+      "contractId": "C-001",
+      "amount": "0",
+      "paymentDate": "08.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "просрочен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-004",
+      "contractId": "C-002",
+      "amount": "21000",
+      "paymentDate": "21.03.2026",
+      "periodStart": "15.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-005",
+      "contractId": "C-002",
+      "amount": "21000",
+      "paymentDate": "08.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-006",
+      "contractId": "C-002",
+      "amount": "21000",
+      "paymentDate": "09.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-007",
+      "contractId": "C-003",
+      "amount": "57000",
+      "paymentDate": "08.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-008",
+      "contractId": "C-003",
+      "amount": "57000",
+      "paymentDate": "09.07.2026",
+      "periodStart": "01.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-009",
+      "contractId": "C-003",
+      "amount": "57000",
+      "paymentDate": "10.08.2026",
+      "periodStart": "01.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-010",
+      "contractId": "C-004",
+      "amount": "66000",
+      "paymentDate": "09.01.2026",
+      "periodStart": "01.01.2026",
+      "periodEnd": "31.01.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-011",
+      "contractId": "C-004",
+      "amount": "66000",
+      "paymentDate": "10.02.2026",
+      "periodStart": "01.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-012",
+      "contractId": "C-004",
+      "amount": "66000",
+      "paymentDate": "06.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-013",
+      "contractId": "C-005",
+      "amount": "36000",
+      "paymentDate": "10.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-014",
+      "contractId": "C-005",
+      "amount": "36000",
+      "paymentDate": "06.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-015",
+      "contractId": "C-005",
+      "amount": "18000",
+      "paymentDate": "07.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "безналичный перевод",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-016",
+      "contractId": "C-006",
+      "amount": "48000",
+      "paymentDate": "15.04.2026",
+      "periodStart": "10.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-017",
+      "contractId": "C-006",
+      "amount": "48000",
+      "paymentDate": "07.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-018",
+      "contractId": "C-006",
+      "amount": "24000",
+      "paymentDate": "08.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-019",
+      "contractId": "C-007",
+      "amount": "71000",
+      "paymentDate": "26.02.2026",
+      "periodStart": "20.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-020",
+      "contractId": "C-007",
+      "amount": "71000",
+      "paymentDate": "08.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-021",
+      "contractId": "C-007",
+      "amount": "30000",
+      "paymentDate": "09.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-022",
+      "contractId": "C-008",
+      "amount": "25000",
+      "paymentDate": "08.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-023",
+      "contractId": "C-008",
+      "amount": "25000",
+      "paymentDate": "09.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-024",
+      "contractId": "C-008",
+      "amount": "0",
+      "paymentDate": "10.07.2026",
+      "periodStart": "01.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "безналичный перевод",
+      "status": "просрочен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-025",
+      "contractId": "C-009",
+      "amount": "129600",
+      "paymentDate": "18.10.2026",
+      "periodStart": "10.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-026",
+      "contractId": "C-009",
+      "amount": "129600",
+      "paymentDate": "10.11.2026",
+      "periodStart": "01.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-027",
+      "contractId": "C-009",
+      "amount": "129600",
+      "paymentDate": "06.12.2026",
+      "periodStart": "01.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-028",
+      "contractId": "C-010",
+      "amount": "128700",
+      "paymentDate": "20.11.2026",
+      "periodStart": "11.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-029",
+      "contractId": "C-010",
+      "amount": "128700",
+      "paymentDate": "06.12.2026",
+      "periodStart": "01.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-030",
+      "contractId": "C-011",
+      "amount": "31800",
+      "paymentDate": "17.12.2026",
+      "periodStart": "12.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-031",
+      "contractId": "C-012",
+      "amount": "84300",
+      "paymentDate": "19.01.2026",
+      "periodStart": "13.01.2026",
+      "periodEnd": "31.01.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-032",
+      "contractId": "C-012",
+      "amount": "84300",
+      "paymentDate": "08.02.2026",
+      "periodStart": "01.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-033",
+      "contractId": "C-012",
+      "amount": "42150",
+      "paymentDate": "09.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-034",
+      "contractId": "C-013",
+      "amount": "95900",
+      "paymentDate": "21.02.2026",
+      "periodStart": "14.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-035",
+      "contractId": "C-013",
+      "amount": "95900",
+      "paymentDate": "09.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-036",
+      "contractId": "C-013",
+      "amount": "95900",
+      "paymentDate": "10.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-037",
+      "contractId": "C-014",
+      "amount": "134800",
+      "paymentDate": "23.03.2026",
+      "periodStart": "15.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-038",
+      "contractId": "C-014",
+      "amount": "134800",
+      "paymentDate": "10.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-039",
+      "contractId": "C-014",
+      "amount": "134800",
+      "paymentDate": "06.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-040",
+      "contractId": "C-015",
+      "amount": "23400",
+      "paymentDate": "25.04.2026",
+      "periodStart": "16.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-041",
+      "contractId": "C-015",
+      "amount": "23400",
+      "paymentDate": "06.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-042",
+      "contractId": "C-015",
+      "amount": "0",
+      "paymentDate": "07.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "просрочен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-043",
+      "contractId": "C-016",
+      "amount": "87000",
+      "paymentDate": "22.05.2026",
+      "periodStart": "17.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-044",
+      "contractId": "C-016",
+      "amount": "87000",
+      "paymentDate": "07.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-045",
+      "contractId": "C-016",
+      "amount": "43500",
+      "paymentDate": "08.07.2026",
+      "periodStart": "01.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "банковская карта",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-046",
+      "contractId": "C-017",
+      "amount": "98600",
+      "paymentDate": "24.06.2026",
+      "periodStart": "18.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-047",
+      "contractId": "C-017",
+      "amount": "98600",
+      "paymentDate": "08.07.2026",
+      "periodStart": "01.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-048",
+      "contractId": "C-017",
+      "amount": "98600",
+      "paymentDate": "09.08.2026",
+      "periodStart": "01.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-049",
+      "contractId": "C-018",
+      "amount": "110200",
+      "paymentDate": "26.07.2026",
+      "periodStart": "19.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-050",
+      "contractId": "C-018",
+      "amount": "110200",
+      "paymentDate": "09.08.2026",
+      "periodStart": "01.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-051",
+      "contractId": "C-018",
+      "amount": "110200",
+      "paymentDate": "10.09.2026",
+      "periodStart": "01.09.2026",
+      "periodEnd": "30.09.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-052",
+      "contractId": "C-019",
+      "amount": "140000",
+      "paymentDate": "28.08.2026",
+      "periodStart": "20.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-053",
+      "contractId": "C-019",
+      "amount": "140000",
+      "paymentDate": "10.09.2026",
+      "periodStart": "01.09.2026",
+      "periodEnd": "30.09.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-054",
+      "contractId": "C-019",
+      "amount": "140000",
+      "paymentDate": "06.10.2026",
+      "periodStart": "01.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-055",
+      "contractId": "C-020",
+      "amount": "28600",
+      "paymentDate": "10.09.2026",
+      "periodStart": "01.09.2026",
+      "periodEnd": "30.09.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-056",
+      "contractId": "C-020",
+      "amount": "28600",
+      "paymentDate": "06.10.2026",
+      "periodStart": "01.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-057",
+      "contractId": "C-020",
+      "amount": "14300",
+      "paymentDate": "07.11.2026",
+      "periodStart": "01.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-058",
+      "contractId": "C-021",
+      "amount": "49300",
+      "paymentDate": "07.10.2026",
+      "periodStart": "02.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-059",
+      "contractId": "C-021",
+      "amount": "49300",
+      "paymentDate": "07.11.2026",
+      "periodStart": "01.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-060",
+      "contractId": "C-021",
+      "amount": "24650",
+      "paymentDate": "08.12.2026",
+      "periodStart": "01.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-061",
+      "contractId": "C-022",
+      "amount": "94700",
+      "paymentDate": "09.11.2026",
+      "periodStart": "03.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-062",
+      "contractId": "C-022",
+      "amount": "0",
+      "paymentDate": "08.12.2026",
+      "periodStart": "01.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "просрочен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-063",
+      "contractId": "C-023",
+      "amount": "106300",
+      "paymentDate": "11.12.2026",
+      "periodStart": "04.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-064",
+      "contractId": "C-024",
+      "amount": "117900",
+      "paymentDate": "13.01.2026",
+      "periodStart": "05.01.2026",
+      "periodEnd": "31.01.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-065",
+      "contractId": "C-024",
+      "amount": "117900",
+      "paymentDate": "10.02.2026",
+      "periodStart": "01.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-066",
+      "contractId": "C-024",
+      "amount": "58950",
+      "paymentDate": "06.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-067",
+      "contractId": "C-025",
+      "amount": "24700",
+      "paymentDate": "15.02.2026",
+      "periodStart": "06.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-068",
+      "contractId": "C-025",
+      "amount": "24700",
+      "paymentDate": "06.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-069",
+      "contractId": "C-025",
+      "amount": "24700",
+      "paymentDate": "07.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-070",
+      "contractId": "C-026",
+      "amount": "36300",
+      "paymentDate": "12.03.2026",
+      "periodStart": "07.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-071",
+      "contractId": "C-026",
+      "amount": "36300",
+      "paymentDate": "07.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-072",
+      "contractId": "C-026",
+      "amount": "18150",
+      "paymentDate": "08.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-073",
+      "contractId": "C-027",
+      "amount": "57000",
+      "paymentDate": "14.04.2026",
+      "periodStart": "08.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-074",
+      "contractId": "C-027",
+      "amount": "57000",
+      "paymentDate": "08.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-075",
+      "contractId": "C-027",
+      "amount": "57000",
+      "paymentDate": "09.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-076",
+      "contractId": "C-028",
+      "amount": "111500",
+      "paymentDate": "16.05.2026",
+      "periodStart": "09.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-077",
+      "contractId": "C-028",
+      "amount": "111500",
+      "paymentDate": "09.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-078",
+      "contractId": "C-028",
+      "amount": "55750",
+      "paymentDate": "10.07.2026",
+      "periodStart": "01.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "банковская карта",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-079",
+      "contractId": "C-029",
+      "amount": "123100",
+      "paymentDate": "18.06.2026",
+      "periodStart": "10.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-080",
+      "contractId": "C-029",
+      "amount": "123100",
+      "paymentDate": "10.07.2026",
+      "periodStart": "01.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-081",
+      "contractId": "C-029",
+      "amount": "0",
+      "paymentDate": "06.08.2026",
+      "periodStart": "01.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "безналичный перевод",
+      "status": "просрочен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-082",
+      "contractId": "C-030",
+      "amount": "29900",
+      "paymentDate": "20.07.2026",
+      "periodStart": "11.07.2026",
+      "periodEnd": "31.07.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-083",
+      "contractId": "C-030",
+      "amount": "29900",
+      "paymentDate": "06.08.2026",
+      "periodStart": "01.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-084",
+      "contractId": "C-030",
+      "amount": "29900",
+      "paymentDate": "07.09.2026",
+      "periodStart": "01.09.2026",
+      "periodEnd": "30.09.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-085",
+      "contractId": "C-031",
+      "amount": "41500",
+      "paymentDate": "17.08.2026",
+      "periodStart": "12.08.2026",
+      "periodEnd": "31.08.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-086",
+      "contractId": "C-031",
+      "amount": "41500",
+      "paymentDate": "07.09.2026",
+      "periodStart": "01.09.2026",
+      "periodEnd": "30.09.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-087",
+      "contractId": "C-031",
+      "amount": "20750",
+      "paymentDate": "08.10.2026",
+      "periodStart": "01.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-088",
+      "contractId": "C-032",
+      "amount": "62200",
+      "paymentDate": "19.09.2026",
+      "periodStart": "13.09.2026",
+      "periodEnd": "30.09.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-089",
+      "contractId": "C-032",
+      "amount": "62200",
+      "paymentDate": "08.10.2026",
+      "periodStart": "01.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-090",
+      "contractId": "C-032",
+      "amount": "31100",
+      "paymentDate": "09.11.2026",
+      "periodStart": "01.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "частично оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-091",
+      "contractId": "C-033",
+      "amount": "82900",
+      "paymentDate": "21.10.2026",
+      "periodStart": "14.10.2026",
+      "periodEnd": "31.10.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-092",
+      "contractId": "C-033",
+      "amount": "82900",
+      "paymentDate": "09.11.2026",
+      "periodStart": "01.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-093",
+      "contractId": "C-033",
+      "amount": "82900",
+      "paymentDate": "10.12.2026",
+      "periodStart": "01.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-094",
+      "contractId": "C-034",
+      "amount": "128300",
+      "paymentDate": "23.11.2026",
+      "periodStart": "15.11.2026",
+      "periodEnd": "30.11.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-095",
+      "contractId": "C-034",
+      "amount": "128300",
+      "paymentDate": "10.12.2026",
+      "periodStart": "01.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-096",
+      "contractId": "C-035",
+      "amount": "35100",
+      "paymentDate": "25.12.2026",
+      "periodStart": "16.12.2026",
+      "periodEnd": "31.12.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-097",
+      "contractId": "C-036",
+      "amount": "46700",
+      "paymentDate": "22.01.2026",
+      "periodStart": "17.01.2026",
+      "periodEnd": "31.01.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-098",
+      "contractId": "C-036",
+      "amount": "46700",
+      "paymentDate": "07.02.2026",
+      "periodStart": "01.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-099",
+      "contractId": "C-036",
+      "amount": "0",
+      "paymentDate": "08.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "просрочен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-100",
+      "contractId": "C-037",
+      "amount": "67400",
+      "paymentDate": "24.02.2026",
+      "periodStart": "18.02.2026",
+      "periodEnd": "28.02.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-101",
+      "contractId": "C-037",
+      "amount": "67400",
+      "paymentDate": "08.03.2026",
+      "periodStart": "01.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-102",
+      "contractId": "C-037",
+      "amount": "67400",
+      "paymentDate": "09.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-103",
+      "contractId": "C-038",
+      "amount": "79000",
+      "paymentDate": "26.03.2026",
+      "periodStart": "19.03.2026",
+      "periodEnd": "31.03.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-104",
+      "contractId": "C-038",
+      "amount": "79000",
+      "paymentDate": "09.04.2026",
+      "periodStart": "01.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-105",
+      "contractId": "C-038",
+      "amount": "79000",
+      "paymentDate": "10.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-106",
+      "contractId": "C-039",
+      "amount": "90600",
+      "paymentDate": "28.04.2026",
+      "periodStart": "20.04.2026",
+      "periodEnd": "30.04.2026",
+      "method": "банковская карта",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-107",
+      "contractId": "C-039",
+      "amount": "90600",
+      "paymentDate": "10.05.2026",
+      "periodStart": "01.05.2026",
+      "periodEnd": "31.05.2026",
+      "method": "безналичный перевод",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    },
+    {
+      "id": "P-108",
+      "contractId": "C-039",
+      "amount": "90600",
+      "paymentDate": "06.06.2026",
+      "periodStart": "01.06.2026",
+      "periodEnd": "30.06.2026",
+      "method": "наличные через кассу",
+      "status": "оплачен",
+      "note": "Демо-платеж для проверки журнала оплат"
+    }
+  ]
+}

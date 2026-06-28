@@ -1,0 +1,557 @@
+{
+  "landlords": [
+    {
+      "id": "L-001",
+      "name": "ООО «Арендодатель»",
+      "inn": "7701000000",
+      "legalAddress": "г. Москва, ул. Центральная, д. 1",
+      "bankDetails": "р/с 4070281000000001, ПАО «Городской банк»"
+    }
+  ],
+  "tenants": [
+    {
+      "id": "T-001",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Вектор»",
+      "legalAddress": "г. Москва, ул. Лесная, д. 7",
+      "ogrn": "1027700132195",
+      "inn": "7701234567",
+      "bankName": "ПАО «Городской банк»",
+      "checkingAccount": "4070281000000001",
+      "phone": "79001112233",
+      "email": "office@vector.ru",
+      "directorLastName": "Павлов",
+      "directorFirstName": "Игорь",
+      "directorMiddleName": "Андреевич"
+    },
+    {
+      "id": "T-002",
+      "tenantType": "физическое лицо",
+      "lastName": "Иванов",
+      "firstName": "Сергей",
+      "middleName": "Петрович",
+      "passportSeries": "4510",
+      "passportNumber": "123456",
+      "birthDate": "12.04.1991",
+      "passportIssueDate": "18.05.2012",
+      "inn": "5001234567",
+      "email": "ivanov@mail.ru",
+      "phone": "79002223344"
+    },
+    {
+      "id": "T-003",
+      "tenantType": "юридическое лицо",
+      "companyName": "ИП Смирнова Анна",
+      "legalAddress": "г. Москва, пр-т Мира, д. 18",
+      "ogrn": "3045001234567",
+      "inn": "5009876543",
+      "bankName": "АО «Расчетный банк»",
+      "checkingAccount": "4080281000000002",
+      "phone": "79003334455",
+      "email": "smirnova@business.ru",
+      "directorLastName": "Смирнова",
+      "directorFirstName": "Анна",
+      "directorMiddleName": "Игоревна"
+    },
+    {
+      "id": "T-004",
+      "tenantType": "физическое лицо",
+      "lastName": "Петрова",
+      "firstName": "Мария",
+      "middleName": "Алексеевна",
+      "passportSeries": "4511",
+      "passportNumber": "234567",
+      "birthDate": "09.09.1988",
+      "passportIssueDate": "11.10.2014",
+      "inn": "5002345678",
+      "email": "petrova@mail.ru",
+      "phone": "79004445566"
+    },
+    {
+      "id": "T-005",
+      "tenantType": "юридическое лицо",
+      "companyName": "ООО «Север»",
+      "legalAddress": "г. Москва, ул. Полярная, д. 9",
+      "ogrn": "1027800123456",
+      "inn": "7801234567",
+      "bankName": "ПАО «Северный банк»",
+      "checkingAccount": "4070281000000003",
+      "phone": "79005556677",
+      "email": "office@sever.ru",
+      "directorLastName": "Орлов",
+      "directorFirstName": "Денис",
+      "directorMiddleName": "Викторович"
+    },
+    {
+      "id": "T-006",
+      "tenantType": "физическое лицо",
+      "lastName": "Кузнецов",
+      "firstName": "Артем",
+      "middleName": "Ильич",
+      "passportSeries": "4512",
+      "passportNumber": "345678",
+      "birthDate": "21.01.1995",
+      "passportIssueDate": "22.02.2016",
+      "inn": "5003456789",
+      "email": "kuznetsov@mail.ru",
+      "phone": "79006667788"
+    },
+    {
+      "id": "T-007",
+      "tenantType": "юридическое лицо",
+      "companyName": "АО «Гранит»",
+      "legalAddress": "г. Москва, ул. Каменная, д. 4",
+      "ogrn": "1027700456789",
+      "inn": "7704567890",
+      "bankName": "АО «Столичный банк»",
+      "checkingAccount": "4070281000000004",
+      "phone": "79007778899",
+      "email": "info@granit.ru",
+      "directorLastName": "Белова",
+      "directorFirstName": "Елена",
+      "directorMiddleName": "Олеговна"
+    },
+    {
+      "id": "T-008",
+      "tenantType": "физическое лицо",
+      "lastName": "Соколов",
+      "firstName": "Никита",
+      "middleName": "Романович",
+      "passportSeries": "4513",
+      "passportNumber": "456789",
+      "birthDate": "03.06.1990",
+      "passportIssueDate": "04.07.2015",
+      "inn": "5004567890",
+      "email": "sokolov@mail.ru",
+      "phone": "79008889900"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "101",
+      "area": "28",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 101",
+      "status": "Свободно"
+    },
+    {
+      "id": "102",
+      "area": "16",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 102",
+      "status": "Свободно"
+    },
+    {
+      "id": "112",
+      "area": "41",
+      "floor": "1",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 112",
+      "status": "Занято"
+    },
+    {
+      "id": "205",
+      "area": "52",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 205",
+      "status": "Занято"
+    },
+    {
+      "id": "206",
+      "area": "64",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 206",
+      "status": "Свободно"
+    },
+    {
+      "id": "217",
+      "area": "23",
+      "floor": "2",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 217",
+      "status": "Занято"
+    },
+    {
+      "id": "301",
+      "area": "78",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 301",
+      "status": "Свободно"
+    },
+    {
+      "id": "317",
+      "area": "18",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 317",
+      "status": "в ремонте"
+    },
+    {
+      "id": "318",
+      "area": "33",
+      "floor": "3",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 318",
+      "status": "Занято"
+    },
+    {
+      "id": "410",
+      "area": "35",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 410",
+      "status": "Свободно"
+    },
+    {
+      "id": "411",
+      "area": "46",
+      "floor": "4",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 411",
+      "status": "Занято"
+    },
+    {
+      "id": "509",
+      "area": "90",
+      "floor": "5",
+      "address": "г. Москва, ул. Центральная, д. 1, помещение 509",
+      "status": "Свободно"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "C-001",
+      "contractNumber": "ДА-24/015",
+      "roomId": "205",
+      "landlordId": "L-001",
+      "tenantId": "T-001",
+      "startDate": "01.02.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "92000",
+      "payment": "92000",
+      "lastPaymentDate": "07.05.2026"
+    },
+    {
+      "id": "C-002",
+      "contractNumber": "ДА-24/021",
+      "roomId": "317",
+      "landlordId": "L-001",
+      "tenantId": "T-002",
+      "startDate": "15.03.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "21000",
+      "payment": "0",
+      "lastPaymentDate": "10.04.2026"
+    },
+    {
+      "id": "C-003",
+      "contractNumber": "ДА-24/030",
+      "roomId": "410",
+      "landlordId": "L-001",
+      "tenantId": "T-003",
+      "startDate": "01.06.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "57000",
+      "payment": "57000",
+      "lastPaymentDate": "01.06.2026"
+    },
+    {
+      "id": "C-004",
+      "contractNumber": "ДА-24/031",
+      "roomId": "112",
+      "landlordId": "L-001",
+      "tenantId": "T-005",
+      "startDate": "01.01.2026",
+      "endDate": "31.12.2026",
+      "rentCost": "66000",
+      "payment": "66000",
+      "lastPaymentDate": "05.05.2026"
+    },
+    {
+      "id": "C-005",
+      "contractNumber": "ДА-24/032",
+      "roomId": "217",
+      "landlordId": "L-001",
+      "tenantId": "T-004",
+      "startDate": "01.04.2026",
+      "endDate": "30.11.2026",
+      "rentCost": "36000",
+      "payment": "18000",
+      "lastPaymentDate": "15.05.2026"
+    },
+    {
+      "id": "C-006",
+      "contractNumber": "ДА-24/033",
+      "roomId": "318",
+      "landlordId": "L-001",
+      "tenantId": "T-006",
+      "startDate": "10.04.2026",
+      "endDate": "10.12.2026",
+      "rentCost": "48000",
+      "payment": "48000",
+      "lastPaymentDate": "10.05.2026"
+    },
+    {
+      "id": "C-007",
+      "contractNumber": "ДА-24/034",
+      "roomId": "411",
+      "landlordId": "L-001",
+      "tenantId": "T-007",
+      "startDate": "20.02.2026",
+      "endDate": "20.12.2026",
+      "rentCost": "71000",
+      "payment": "30000",
+      "lastPaymentDate": "20.04.2026"
+    },
+    {
+      "id": "C-008",
+      "contractNumber": "ДА-24/035",
+      "roomId": "102",
+      "landlordId": "L-001",
+      "tenantId": "T-008",
+      "startDate": "01.05.2026",
+      "endDate": "31.10.2026",
+      "rentCost": "25000",
+      "payment": "25000",
+      "lastPaymentDate": "01.05.2026"
+    }
+  ],
+  "acts": [
+    {
+      "id": "A-001",
+      "contractId": "C-001",
+      "settlementDate": "01.02.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "3820"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "44"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "18"
+        }
+      ]
+    },
+    {
+      "id": "A-002",
+      "contractId": "C-002",
+      "settlementDate": "15.03.2026",
+      "roomCondition": "требует ремонта",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "640"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "12"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "7"
+        }
+      ]
+    },
+    {
+      "id": "A-003",
+      "contractId": "C-004",
+      "settlementDate": "01.01.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2100"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "27"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "14"
+        }
+      ]
+    },
+    {
+      "id": "A-004",
+      "contractId": "C-005",
+      "settlementDate": "01.04.2026",
+      "roomCondition": "удовлетворительное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "980"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "19"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "8"
+        }
+      ]
+    },
+    {
+      "id": "A-005",
+      "contractId": "C-006",
+      "settlementDate": "10.04.2026",
+      "roomCondition": "хорошее",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "1500"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "21"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "10"
+        }
+      ]
+    },
+    {
+      "id": "A-006",
+      "contractId": "C-007",
+      "settlementDate": "20.02.2026",
+      "roomCondition": "отличное",
+      "meterReadings": [
+        {
+          "meterType": "счетчик электроэнергии",
+          "meterValue": "2600"
+        },
+        {
+          "meterType": "счетчик холодной воды",
+          "meterValue": "31"
+        },
+        {
+          "meterType": "счетчик горячей воды",
+          "meterValue": "16"
+        }
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "id": "S-001",
+      "contractId": "C-001",
+      "cadastralNumber": "7701234567",
+      "registrationDate": "12.01.2024",
+      "registrationNumber": "100001"
+    },
+    {
+      "id": "S-002",
+      "contractId": "C-002",
+      "cadastralNumber": "7707654321",
+      "registrationDate": "18.02.2024",
+      "registrationNumber": "100002"
+    },
+    {
+      "id": "S-003",
+      "contractId": "C-004",
+      "cadastralNumber": "7702223344",
+      "registrationDate": "20.03.2024",
+      "registrationNumber": "100003"
+    },
+    {
+      "id": "S-004",
+      "contractId": "C-005",
+      "cadastralNumber": "7703334455",
+      "registrationDate": "25.03.2024",
+      "registrationNumber": "100004"
+    },
+    {
+      "id": "S-005",
+      "contractId": "C-006",
+      "cadastralNumber": "7704445566",
+      "registrationDate": "04.04.2024",
+      "registrationNumber": "100005"
+    }
+  ],
+  "requests": [
+    {
+      "id": "З-105",
+      "contractId": "C-002",
+      "roomId": "317",
+      "tenantRoomContractId": "C-002",
+      "description": "Не работает освещение в помещении",
+      "requestDate": "26.05.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-099",
+      "contractId": "C-001",
+      "roomId": "205",
+      "tenantRoomContractId": "C-001",
+      "description": "Проверить показания счетчика холодной воды",
+      "requestDate": "24.05.2026",
+      "status": "в работе"
+    },
+    {
+      "id": "З-081",
+      "contractId": "C-001",
+      "roomId": "205",
+      "tenantRoomContractId": "C-001",
+      "description": "Замена дверного замка",
+      "requestDate": "18.05.2026",
+      "status": "выполнена"
+    },
+    {
+      "id": "З-106",
+      "contractId": "C-005",
+      "roomId": "217",
+      "tenantRoomContractId": "C-005",
+      "description": "Проверить розетки в помещении",
+      "requestDate": "27.05.2026",
+      "status": "зарегистрирована"
+    },
+    {
+      "id": "З-107",
+      "contractId": "C-006",
+      "roomId": "318",
+      "tenantRoomContractId": "C-006",
+      "description": "Проверить счетчик электроэнергии",
+      "requestDate": "28.05.2026",
+      "status": "в работе"
+    },
+    {
+      "id": "З-108",
+      "contractId": "C-007",
+      "roomId": "411",
+      "tenantRoomContractId": "C-007",
+      "description": "Настроить вентиляцию",
+      "requestDate": "29.05.2026",
+      "status": "зарегистрирована"
+    }
+  ],
+  "notices": [
+    {
+      "id": "1",
+      "contractId": "C-002",
+      "tenantRoomContractId": "C-002",
+      "roomId": "317",
+      "debtAmount": "21000",
+      "formationDate": "27.05.2026",
+      "repaymentDeadline": "10.06.2026"
+    },
+    {
+      "id": "2",
+      "contractId": "C-005",
+      "tenantRoomContractId": "C-005",
+      "roomId": "217",
+      "debtAmount": "18000",
+      "formationDate": "28.05.2026",
+      "repaymentDeadline": "12.06.2026"
+    },
+    {
+      "id": "3",
+      "contractId": "C-007",
+      "tenantRoomContractId": "C-007",
+      "roomId": "411",
+      "debtAmount": "41000",
+      "formationDate": "29.05.2026",
+      "repaymentDeadline": "15.06.2026"
+    }
+  ]
+}
